@@ -42,7 +42,7 @@
 
 
 profile={
-    'aman':{'address':["Noida","Delhi","Mumbai"],
+        'aman':{'address':["Noida","Delhi","Mumbai"],
     'hobbies':["reading","cooking","tavelling"],
     'password':{"insta":234545,"fb":"984549"}
     },
@@ -51,9 +51,10 @@ profile={
     'password':{"insta":234545,"fb":"984549"}
      }
     }
-# res=profile['aman']['password']["insta"]
+res1=profile['aman']['password']["insta"]
 res=profile['abhi']['hobbies']
 print(res)
+print(res1)
 
 
 
