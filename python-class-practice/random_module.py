@@ -58,7 +58,7 @@ import random
 import string
 
 
-for i in range(1,10):
+for i in range(1,11):
     letters = ''.join(random.choices(string.ascii_uppercase, k=4))
     numbers = ''.join(random.choices(string.digits, k=6))
     coupon_code = letters + numbers
