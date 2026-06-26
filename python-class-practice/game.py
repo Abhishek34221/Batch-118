@@ -40,6 +40,26 @@ import random
 
 import streamlit as st
 
+st.set_page_config(page_title="Number addition",page_icon="➕",layout="centered")
+st.title("Addition of Two Numbers")
+st.caption("Enter Two number and it will return addition of them")
+
+form=st.form("add_form")
+num1=form.number_input("First Number")
+num2=form.number_input("Second Number")
+submitted=form.form_submit_button("Calculate Sum")
+
+if submitted:
+    result=num1+num1
+    st.divider()
+    st.success(F"Sum{result}")
+    st.metric(label="Result",value=result)
+
+for i in range(1,11):
+    st.write(2,"x",i,"=",2*i)
+
+
+
 
 # choices = ["rock", "paper", "scissors"]
 
@@ -59,20 +79,3 @@ import streamlit as st
 #     else:
 #         st.error("💻 Computer Wins!")
 
-st.set_page_config(page_title="Number addition",page_icon="➕",layout="centered")
-st.title("Addition of Two Numbers")
-st.caption("Enter Two number and it will return addition of them")
-
-form=st.form("add_form")
-num1=form.number_input("First Number")
-num2=form.number_input("Second Number")
-submitted=form.form_submit_button("Calculate Sum")
-
-if submitted:
-    result=num1+num1
-    st.divider()
-    st.success(F"Sum{result}")
-    st.metric(label="Result",value=result)
-
-for i in range(1,11):
-    st.write(2,"x",i,"=",2*i)
