@@ -42,3 +42,10 @@
 # marks_tuple = (50, 55, 69, 34, 89)
 # print(sum_indice(marks_tuple))
 
+from custom_mod import check_odd_even
+
+print(check_odd_even(10))
+
+from custom_mod import rev_str
+
+print(rev_str("aman"))

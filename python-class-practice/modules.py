@@ -4,3 +4,8 @@
 # types of modules
 # 1. In-built module(random , os , math, string, datetime, faker )
 # 2. User-defined module(custome modules)
+
+
+# os module : will be covered in file handling
+# math module : assignment
+# faker : file handling and pandas
