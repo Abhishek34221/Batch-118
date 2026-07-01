@@ -51,11 +51,11 @@
 #     print("Error:",e)
 
 # 2.write mode file creation
-file=open("new_demo.txt","w")
-file.write("This is file content using file handling")
-file.flush()
-file.close()
-print("file created in write mode..")
+# file=open("new_demo.txt","w")
+# file.write("This is file content using file handling")
+# file.flush()
+# file.close()
+# print("file created in write mode..")
 
 # import os
 # print(os.getcwd())
@@ -77,10 +77,9 @@ print("file created in write mode..")
 #     print("file written")
 #     print(f"File content : {r}")
 
-with open("demo.txt", "r") as f:
-    print(f.read())
+# with open("demo.txt", "r") as f:
+#     print(f.read())
     
-
 
 # count_digits=""
 # total_char=0
@@ -100,16 +99,101 @@ with open("demo.txt", "r") as f:
 
 
 
+# with open("demo.txt", "r") as file:
+#     data = file.read()
+# result = ""
 
-with open("demo.txt", "r") as file:
-    data = file.read()
-result = ""
+# for i in data:
+#     if not i.isdigit():
+#         result += i
+# with open("newfile.txt", "w") as file:
+#     file.write(result)
 
-for i in data:
-    if not i.isdigit():
-        result += i
-with open("newfile.txt", "w") as file:
-    file.write(result)
+# print("Digits removed successfully.")
 
-print("Digits removed successfully.")
+
+# try:
+#     num1 = int(input("Enter first number: "))
+#     num2 = int(input("Enter second number: "))
+#     res = num1/num2
+# except Exception as e:
+#     print("Please enter valid intiger.")
+#     print("Cannot divided by zero")
+# else:
+#     print("Result: ",res)
+# finally:
+#     print("Program finised✅")
+
+
+# n = int(input("Enter a number: "))
+# count = 0
+# for i in range(1, n+1):
+#     if n % i == 0:
+#         count += 1
+# if count == 2:
+
+#     print("Prime")
+# else:
+#     print("Not Prime")
+
+
+
+
+# emp_list=["aman","shivam","shubham","anshu","kamal"]
+# # emp name individual file create txt type.
+# for i in emp_list:
+#     with open(f"{i}.txt", "w") as file:
+#         data=file.write(i)
+#         print("file created")
+
+
+import os
+# print(os.listdir())
+# print("Current folder :",os.getcwd())
+# path = "C:\\Users\Abhishek Singh\\OneDrive\\Desktop\\Python_practice"
+# os.chdir(path)
+# print("Current folder : ", os.getcwd())
+
+emp_list=["aman","shivam","shubham","anshu","kamal"]
+
+# for i in emp_list:
+#     file_check=os.path.exists(f"{i}.txt")
+#     if not file_check:
+#         with open(f"{i}.txt","w") as file:
+#             print(f"{i}.txt file is created✅")
+#     else:
+#         print(f"{i} - File allready exit")
+
+# for i in emp_list:
+#     os.remove(f"{i}.txt")
+#     print(i, "Removed")
+
+# var1=os.getcwd()
+# print(var1)
+# path=var1+"//"+var1
+# os.chdir(path)
+
+
+# folder = "Employee_Details"
+# os.makedirs(folder)
+
+# target = os.getcwd()+folder
+# path=os.chdir(target)
+
+
+
+# for i in emp_list:
+#     with open(f"{i}.txt","w") as file:
+#         print(i,"Created✅")
+
+
+
+
+
+
+
+
+
+
+
 
