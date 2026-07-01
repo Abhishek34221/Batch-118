@@ -11,9 +11,11 @@ import os
 #     else:
 #         print(f"{i} - File allready exit")
 
-cuur=os.getcwd()
-path=cuur+"\\"+"PYTHON_PRACTICE"+"\\"+"Employee_Details"
+import os
+
+path = r"C:\Users\Abhishek Singh\OneDrive\Desktop\Python_practice\Employee_Details"
 os.chdir(path)
+print(os.getcwd())
 # print(os.getcwd())
 # emp_list=["aman","shivam","shubham","anshu","kamal"]
 # for i in emp_list:
