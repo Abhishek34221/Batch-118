@@ -1,0 +1,212 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Abhishek",
+            "role": 61004,
+            "age": 27,
+            "email": "leenadoctor@example.org",
+            "phone": "0608923509"
+        },
+        {
+            "id": 2,
+            "name": "Nitesh",
+            "role": 49493,
+            "age": 24,
+            "email": "bnaik@example.com",
+            "phone": "6630137517"
+        },
+        {
+            "id": 3,
+            "name": "Chakrika",
+            "role": 56337,
+            "age": 21,
+            "email": "saanvighose@example.org",
+            "phone": "5326883695"
+        },
+        {
+            "id": 4,
+            "name": "Samuel",
+            "role": 94549,
+            "age": 30,
+            "email": "krisha60@example.com",
+            "phone": "7424071612"
+        },
+        {
+            "id": 5,
+            "name": "Oni",
+            "role": 90525,
+            "age": 23,
+            "email": "vargheseshaurya@example.net",
+            "phone": "5881209958"
+        },
+        {
+            "id": 6,
+            "name": "Yashica",
+            "role": 80969,
+            "age": 30,
+            "email": "kakaralexander@example.com",
+            "phone": "0457508673"
+        },
+        {
+            "id": 7,
+            "name": "Manbir",
+            "role": 79245,
+            "age": 28,
+            "email": "bajajchanchal@example.com",
+            "phone": "1960365595"
+        },
+        {
+            "id": 8,
+            "name": "Eiravati",
+            "role": 17016,
+            "age": 21,
+            "email": "bdani@example.net",
+            "phone": "6895913603"
+        },
+        {
+            "id": 9,
+            "name": "Kritika",
+            "role": 91063,
+            "age": 26,
+            "email": "ldhillon@example.org",
+            "phone": "4226419503"
+        },
+        {
+            "id": 10,
+            "name": "Hemang",
+            "role": 89114,
+            "age": 30,
+            "email": "umang69@example.net",
+            "phone": "9487843144"
+        },
+        {
+            "id": 11,
+            "name": "Aayush",
+            "role": 16420,
+            "age": 29,
+            "email": "simonsaha@example.com",
+            "phone": "8847420313"
+        },
+        {
+            "id": 12,
+            "name": "Yahvi",
+            "role": 12717,
+            "age": 20,
+            "email": "skala@example.org",
+            "phone": "6644789011"
+        },
+        {
+            "id": 13,
+            "name": "Fariq",
+            "role": 47209,
+            "age": 24,
+            "email": "bina13@example.com",
+            "phone": "0502601931"
+        },
+        {
+            "id": 14,
+            "name": "Qabil",
+            "role": 62163,
+            "age": 25,
+            "email": "anthony43@example.org",
+            "phone": "8608337776"
+        },
+        {
+            "id": 15,
+            "name": "Devansh",
+            "role": 52758,
+            "age": 20,
+            "email": "fnaik@example.org",
+            "phone": "4797470081"
+        },
+        {
+            "id": 16,
+            "name": "Vasana",
+            "role": 97680,
+            "age": 19,
+            "email": "hemal95@example.com",
+            "phone": "6726894890"
+        },
+        {
+            "id": 17,
+            "name": "Jeet",
+            "role": 82971,
+            "age": 21,
+            "email": "faqiddar@example.org",
+            "phone": "2291185454"
+        },
+        {
+            "id": 18,
+            "name": "Forum",
+            "role": 64004,
+            "age": 29,
+            "email": "yprashad@example.net",
+            "phone": "6235910130"
+        },
+        {
+            "id": 19,
+            "name": "Tarak",
+            "role": 62106,
+            "age": 21,
+            "email": "bbajaj@example.org",
+            "phone": "9622325605"
+        },
+        {
+            "id": 20,
+            "name": "Peter",
+            "role": 18486,
+            "age": 19,
+            "email": "adin@example.com",
+            "phone": "8514271744"
+        },
+        {
+            "id": 21,
+            "name": "Hamsini",
+            "role": 49571,
+            "age": 28,
+            "email": "gdevi@example.org",
+            "phone": "8814998682"
+        },
+        {
+            "id": 22,
+            "name": "Faraj",
+            "role": 47813,
+            "age": 30,
+            "email": "jeevikabandi@example.net",
+            "phone": "3790811287"
+        },
+        {
+            "id": 23,
+            "name": "Manya",
+            "role": 84916,
+            "age": 27,
+            "email": "mugdhasinghal@example.org",
+            "phone": "6220152156"
+        },
+        {
+            "id": 24,
+            "name": "Amrita",
+            "role": 7615,
+            "age": 25,
+            "email": "cdutta@example.net",
+            "phone": "3399469425"
+        },
+        {
+            "id": 25,
+            "name": "Dhruv",
+            "role": 13210,
+            "age": 24,
+            "email": "enarain@example.net",
+            "phone": "5087273922"
+        },
+        {
+            "id": 26,
+            "name": "Akash",
+            "role": 13211,
+            "age": 25,
+            "email": "enarain@example.net",
+            "phone": "5087273922"
+        }
+    ]
+}

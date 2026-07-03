@@ -1,0 +1,15 @@
+{
+    "database":"etl",
+    "table_name": "students",
+    "columns":{
+        "id": "INT PRIMARY KEY AUTO_INCREMENT",
+        "FIRST_NAME": "VARCHAR(100)",
+        "AGE":"INT",
+        "EMAIL":"VARCHAR(100)",
+        "PHONE":"VARCHAR(100)",
+        "ROLE":"INT"
+
+
+        }
+    
+}
